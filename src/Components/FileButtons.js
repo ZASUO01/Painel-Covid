@@ -12,7 +12,7 @@ const FileButtons = ({csvdata, pdfdata, labels}) => {
 
     useEffect(() => {
         if(location.pathname === '/find') setShowPdfButton(false);
-        setWaitProcess(false)
+        setWaitProcess(false);
     }, []);
 
     return(

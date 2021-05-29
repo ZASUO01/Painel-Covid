@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import {FaSearch, FaChartLine, FaFile} from 'react-icons/fa';
+import {FaSearch, FaChartLine} from 'react-icons/fa';
 import {format} from 'date-fns';
 import cover from '../Assets/cover.png';
 import axios from 'axios';
